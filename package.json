@@ -1,0 +1,35 @@
+{
+  "name": "gittraining",
+  "version": "1.0.0",
+  "description": "git training project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/12software/gitTraining.git"
+  },
+  "keywords": [
+    "git",
+    "wrok",
+    "flow"
+  ],
+  "author": "davidhuang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/12software/gitTraining/issues"
+  },
+  "homepage": "https://github.com/12software/gitTraining#readme",
+  "dependencies": {
+    "commitizen": "^3.0.5"
+  },
+  "devDependencies": {
+    "cz-conventional-changelog": "^2.1.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
